@@ -1,0 +1,70 @@
+@media (max-width:767px){
+    .navbar-nav{
+        margin: 0px;
+    }
+    section.aboutme>div.container>h2,section.Skills>.container>h2,section.works>.container>h2,footer>.container>h2,div.social>h2{
+        font-size: 200%;
+        width: 20%;
+    }
+    section.aboutme>div.container>p{
+        font-size: 170%;
+    }
+    form.info p{
+        font-size: 300%;
+        text-align: center;
+    }
+    form.info p input[type="submit"]{
+        width: 100%;
+        line-height: 40px;
+        font-size: 150%;
+        color: #000;
+    }
+    .info input[type="text"],.info textArea{
+        font-family: cursive, arial, sans-serif;
+        font-size: 30%;
+        font-weight: bolder;
+    }
+    div.copy{
+        margin-top: 10px;
+        font-size: 100%;
+    }
+    .copy>.inf{
+        font-size: 250%;
+    }
+
+    div.copyright p{
+        font-size: 150%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    div.copy{
+        font-size: 100%;
+        margin-top: 20px;
+    }
+    section.aboutme>div.container>h2,section.Skills>.container>h2,section.works>.container>h2,footer>.container>h2,div.social>h2{
+        font-size: 200%;
+        width: 20%;
+    }
+    form.info p{
+        font-size: 150%;
+        text-align: center;
+    }
+    form.info p input[type="submit"]{
+        width: 100%;
+        line-height: 40px;
+        font-size: 150%;
+        color: #000;
+    }
+    .info input[type="text"],.info textArea{
+        font-family: cursive, arial, sans-serif;
+        font-size: 50%;
+        font-weight: bolder;
+    }
+    div.copyright p{
+        font-size: 200%;
+    }
+    .copy>.inf{
+        font-size: 300%;
+    }
+}

@@ -1,0 +1,221 @@
+/*------*/
+@font-face {
+    font-family: Header;
+    src:url('../fonts/Sertig.otf');
+}
+@font-face {
+    font-family: Logo;
+    src:url('../fonts/ONRAMP.ttf');
+}
+section{
+    min-height: 400px;
+}
+li{
+    list-style: none;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}
+/*------*/
+
+/* Start Header */
+/* Start Navbar */
+.navbar{
+    background: #333;
+    boder-color : #333;
+    box-shadow: -1px 4px 20px #000;
+    font-size: 170%;
+}
+.navbar>.container .navbar-brand{
+    font-family: Logo,cursive, arial, sans-serif;
+    font-size: 130%;
+    color: #008CE1;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-family: header,cursive, arial, sans-serif;
+    font-weight: bolder;
+    width: 104%;
+    padding: 16px 10px;
+    margin-left: -2%;
+}
+.navbar-inverse .navbar-nav>.active>a {
+    border-radius: 0px;
+    background: #000;
+    margin-left: -2%;
+    width: 104%;
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background: #000;
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    background: #000;
+    color: #fff;
+}
+section.welcome a.btn-primary{
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 3.6;
+    border-radius: 6px;
+    margin-top: 250px;
+    margin-left: 35%;
+    width: 30%;
+    box-shadow: 1px 1px 80px #fff;
+}
+/* End Navbar */
+section.welcome{
+    width: 100%;
+    height: 670px;
+    background-image: url("../imgs/Background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* End Header */
+/* Start About Me */
+section.aboutme{
+    width: 100%;
+    overflow: hidden;
+    background: #008CE1;
+    padding: 50px 10px;
+}
+section.aboutme>.container>h2,section.works>.container>h2,footer>.container>h2{
+    width: 20%;
+    line-height: 50px;
+    font-size: 400%;
+    color: #fff;
+    font-family: Logo,cursive, arial, sans-serif;
+    border-bottom: 3px solid #fff;
+    margin: 0 auto;
+    text-align: center;
+}
+section.aboutme>.container>p{
+    font-size: 150%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-family: header, cursive, arial, sans-serif;
+    margin-top: 35px;
+
+}
+/* End About Me */
+
+/* Start Skills */
+section.Skills{
+    padding: 50px 10px;
+}
+section.Skills>.container>h2{
+    width: 20%;
+    line-height: 50px;
+    font-size: 400%;
+    color: #008CE1;
+    font-family: Logo,cursive, arial, sans-serif;
+    border-bottom: 3px solid #008CE1;
+    margin: 0 auto;
+    text-align: center;
+}
+section.Skills>.container>span{
+    font-family: header,cursive, arial, sans-serif;
+    font-weight: bolder;
+    font-size: 150%;
+}
+section.Skills>.container>span>div.progress{
+    height: 40px;
+}
+section.Skills>.container>span>div.progress>div{
+    line-height: 40px;
+    font-size: 120%;
+    color: #333;
+}
+/* End Skills */
+
+/* Start Works */
+section.works{
+    width: 100%;
+    background-image: url("../imgs/works-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.works>.container>div.row{
+    margin: 20px 5px;
+}
+section.works>.container>div.row a{
+    color: #000;
+    font-family: header,cursive, arial, sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+}
+div.row a p{
+    text-align: center;
+}
+div.row a.thumbnail:hover{
+    background: #008CE1;
+    transition: all 0.6s ease;
+}
+/* End Works */
+
+/* Start Footer */
+footer{
+    width: 100%;
+    background: #008CE1;
+    padding: 50px 10px;
+}
+.info{
+    margin-top: 30px;
+}
+.info input[type="text"],.info textArea{
+    font-family: cursive, arial, sans-serif;
+    font-size: 92%;
+    font-weight: bolder;
+}
+.info input[type="submit"]{
+    background: none;
+    border-color:#fff;
+    line-height: 40px;
+    font-family: logo,cursive, arial, sans-serif;
+    width: 100%;
+    color: #000;
+    font-size: 200%;
+}
+.info input[type="submit"]:hover{
+    background: #fff;
+    transition: all 0.6s ease;
+}
+.copy{
+    font-size: 137%;
+    color:#fff;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Logo, cursive, arial, sans-serif;
+    font-weight: normal;
+    color: #ddd;
+    opacity: 0.6;
+}
+.copy>.inf{
+    font-size: 200%;
+    color:#fff;
+    text-align: center;
+    font-family: Logo, cursive, arial, sans-serif;
+    font-weight: normal;
+    color: #ddd;
+    opacity: 0.6;
+}
+.copy>.social{
+    padding: 50px 10px;
+    font-size: 100%;
+}
+.copy>.social a{
+    color: #fff;
+    margin: 20px;
+ }
+.copy>.social a:hover{
+    color: #000;
+}
+div.copyright p{
+    font-size: 150%;
+}
+/* End Footer */
